@@ -26,8 +26,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/og.png",
-        width: 1730,
-        height: 909,
+        width: 1677,
+        height: 938,
         alt: "Mohamed Deraz Nasr — ML Researcher and Systems Engineer",
       },
     ],
@@ -45,8 +45,8 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f3f0e8" },
-    { media: "(prefers-color-scheme: dark)", color: "#111513" },
+    { media: "(prefers-color-scheme: light)", color: "#fafaf8" },
+    { media: "(prefers-color-scheme: dark)", color: "#111419" },
   ],
 };
 
