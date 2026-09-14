@@ -48,13 +48,13 @@ const projects = [
   {
     name: "Motion World Model",
     description:
-      "Uses an action-conditioned state-space model and model-predictive control for real-time navigation around moving obstacles in Unreal Engine.",
+      "Built a real-time Unreal Engine controller that imagines 64 action sequences per step, uses CEM-MPC to navigate two moving obstacles collision-free, and validates learned residual dynamics against simulator-grounded trajectories.",
     href: "https://github.com/MDerazNasr/Unreal-Engine-World-Model",
   },
   {
     name: "OpenVINO VLA Optimization",
     description:
-      "Exports, profiles, and optimizes a vision-language-action model for low-latency robot control on Intel GPU hardware.",
+      "Optimized UnifoLM-VLA on Intel Arc GPUs by exporting and fusing its VLM-to-DiT pipeline, profiling kernel bottlenecks, and upstreaming an OpenVINO change that cut target GEMM latency by 84.8% and full-chain latency by 6.9%.",
     href: "https://github.com/MDerazNasr/openVINO-project-21",
   },
   {
