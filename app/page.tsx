@@ -73,12 +73,12 @@ export default function Home() {
           <h1>Mohamed Deraz Nasr</h1>
           <p className="intro-text">
             I&apos;m a master&apos;s student in Computer Science at Georgia Tech.
-            My research interests span video and world models for robot
-            perception and planning, sim-to-real reinforcement learning, and
-            generative modeling of humanoid motion and 3D environments. I want
-            to develop methods that let robots acquire behaviors from human
-            video and demonstrations, refine them in simulation, and transfer
-            them reliably to physical systems.
+            My research interests span world and video models for robot
+            perception and planning, sim-to-real reinforcement learning,
+            neural rendering, generative modeling of humanoid motion and 3D
+            environments, and efficient inference. At Qualia, I currently
+            research residual reinforcement learning for vision-language-action
+            models, focusing on robotic manipulation in Isaac Lab.
           </p>
           <nav aria-label="Profiles and contact">
             <EmailCopyButton />
