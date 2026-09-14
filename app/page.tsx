@@ -72,8 +72,8 @@ export default function Home() {
         <div className="masthead-copy">
           <h1>Mohamed Deraz Nasr</h1>
           <p className="intro-text">
-            I&apos;m a master&apos;s student in Computer Science at Georgia Tech.
-            My research interests span world and video models for robot
+            I&apos;m a master&apos;s student in Computer Science at Georgia Tech,
+            with research interests spanning world and video models for robot
             perception and planning, sim-to-real reinforcement learning,
             neural rendering, generative modeling of humanoid motion and 3D
             environments, and efficient inference. I&apos;m currently doing
