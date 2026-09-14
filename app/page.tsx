@@ -72,13 +72,13 @@ export default function Home() {
         <div className="masthead-copy">
           <h1>Mohamed Deraz Nasr</h1>
           <p className="intro-text">
-            I&apos;m a master&apos;s student in Computer Science at Georgia Tech,
-            interested in building learning systems for embodied intelligence.
-            My research interests include video and world models for robot
+            I&apos;m a master&apos;s student in Computer Science at Georgia Tech.
+            My research interests span video and world models for robot
             perception and planning, sim-to-real reinforcement learning, and
-            generative approaches to humanoid motion and 3D environments. I
-            hope to develop models that turn human demonstrations and
-            simulation into transferable skills for real-world robots.
+            generative modeling of humanoid motion and 3D environments. I want
+            to develop methods that let robots acquire behaviors from human
+            video and demonstrations, refine them in simulation, and transfer
+            them reliably to physical systems.
           </p>
           <nav aria-label="Profiles and contact">
             <EmailCopyButton />
