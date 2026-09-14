@@ -70,7 +70,6 @@ export default function Home() {
     <main>
       <header className="masthead">
         <div className="masthead-copy">
-          <p className="monogram">MDN / Copenhagen</p>
           <h1>Mohamed Deraz Nasr</h1>
           <p className="intro-text">
             I&apos;m interested in building intelligent systems that can
@@ -103,97 +102,73 @@ export default function Home() {
             height={400}
             priority
           />
-          <span aria-hidden="true" />
         </div>
       </header>
 
-      <section className="indexed-section" aria-labelledby="publications-title">
-        <div className="section-index" aria-hidden="true">
-          01
-        </div>
-        <div>
-          <h2 id="publications-title">Publications</h2>
-          <div className="publication-list">
-            {publications.map((publication) => (
-              <article className="publication" key={publication.title}>
-                <h3>{publication.title}</h3>
-                <p className="meta">
-                  {publication.venue} · {publication.year}
-                </p>
-                <p>{publication.description}</p>
-                <div className="entry-links">
-                  {publication.links.map((link) => (
-                    <a
-                      href={link.href}
-                      key={link.label}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {link.label}
-                    </a>
-                  ))}
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="indexed-section" aria-labelledby="projects-title">
-        <div className="section-index" aria-hidden="true">
-          02
-        </div>
-        <div>
-          <h2 id="projects-title">Projects</h2>
-          <div className="project-list">
-            {projects.map((project, index) => (
-              <article key={project.name}>
-                <span className="project-number">
-                  {String(index + 1).padStart(2, "0")}
-                </span>
-                <div>
-                  <h3>
-                    <a href={project.href} target="_blank" rel="noreferrer">
-                      {project.name}
-                    </a>
-                  </h3>
-                  <p>{project.description}</p>
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="indexed-section" aria-labelledby="background-title">
-        <div className="section-index" aria-hidden="true">
-          03
-        </div>
-        <div>
-          <h2 id="background-title">Background</h2>
-          <div className="background-list">
-            <article>
-              <div>
-                <h3>Georgia Institute of Technology</h3>
-                <p>M.S. in Computer Science</p>
+      <section className="content-section" aria-labelledby="publications-title">
+        <h2 id="publications-title">Publications</h2>
+        <div className="publication-list">
+          {publications.map((publication) => (
+            <article className="publication" key={publication.title}>
+              <h3>{publication.title}</h3>
+              <p className="meta">
+                {publication.venue} · {publication.year}
+              </p>
+              <p>{publication.description}</p>
+              <div className="entry-links">
+                {publication.links.map((link) => (
+                  <a
+                    href={link.href}
+                    key={link.label}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {link.label}
+                  </a>
+                ))}
               </div>
-              <p>2026–Present</p>
             </article>
-            <article>
-              <div>
-                <h3>University of Ottawa</h3>
-                <p>B.Sc. in Software Engineering</p>
-              </div>
-              <p>2020–2025</p>
-            </article>
-          </div>
+          ))}
         </div>
       </section>
 
-      <footer>
-        <span>Mohamed Deraz Nasr</span>
-        <span>Last updated 2026</span>
-      </footer>
+      <section className="content-section" aria-labelledby="projects-title">
+        <h2 id="projects-title">Projects</h2>
+        <div className="project-list">
+          {projects.map((project) => (
+            <article key={project.name}>
+              <h3>
+                <a href={project.href} target="_blank" rel="noreferrer">
+                  {project.name}
+                </a>
+              </h3>
+              <p>{project.description}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="content-section" aria-labelledby="background-title">
+        <h2 id="background-title">Background</h2>
+        <div className="background-list">
+          <article>
+            <div>
+              <h3>Georgia Institute of Technology</h3>
+              <p>M.S. in Computer Science</p>
+            </div>
+            <p>2026–Present</p>
+          </article>
+          <article>
+            <div>
+              <h3>University of Ottawa</h3>
+              <p>B.Sc. in Software Engineering</p>
+            </div>
+            <p>2020–2025</p>
+          </article>
+        </div>
+      </section>
+
+      <footer>© 2026 Mohamed Deraz Nasr</footer>
     </main>
   );
 }
