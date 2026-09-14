@@ -72,13 +72,13 @@ export default function Home() {
         <div className="masthead-copy">
           <h1>Mohamed Deraz Nasr</h1>
           <p className="intro-text">
-            I&apos;m a graduate student in Computer Science at Georgia Tech,
-            following a B.Sc. in Software Engineering from the University of
-            Ottawa. My research explores learning systems that can model,
-            interpret, and act in the physical world, with interests spanning
-            world models, robotics, 3D perception, and efficient machine
-            learning. I aim to develop reliable methods that connect advances
-            in machine learning with real-world intelligent systems.
+            I&apos;m a master&apos;s student in Computer Science at Georgia Tech,
+            interested in building learning systems for embodied intelligence.
+            My research interests include video and world models for robot
+            perception and planning, sim-to-real reinforcement learning, and
+            generative approaches to humanoid motion and 3D environments. I
+            hope to develop models that turn human demonstrations and
+            simulation into transferable skills for real-world robots.
           </p>
           <nav aria-label="Profiles and contact">
             <EmailCopyButton />
