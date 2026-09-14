@@ -18,7 +18,7 @@ const publications = [
   {
     title:
       "One Lens, Many Worlds: A Capability-Typed Interface for World-Model Interpretability",
-    venue: "arXiv",
+    venue: "arXiv preprint",
     year: "2026",
     description:
       "Introduces WorldModelLens, a capability-typed adapter and shared hook-and-cache layer for analyzing activations, imagined rollouts, and interventions across heterogeneous world-model architectures.",
@@ -27,7 +27,7 @@ const publications = [
   {
     title:
       "Affinity Map: Few-Shot Protein Family Classification via Prototypical Networks",
-    venue: "Zenodo",
+    venue: "Zenodo preprint",
     year: "2026",
     description:
       "Benchmarks CNN, k-mer, frozen ESM-2, and episodic LoRA encoders for few-shot protein classification, finding that LoRA improves one-shot accuracy but weakens multi-shot prototypes.",
