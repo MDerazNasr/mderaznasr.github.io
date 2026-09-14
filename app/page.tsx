@@ -76,9 +76,10 @@ export default function Home() {
             My research interests span world and video models for robot
             perception and planning, sim-to-real reinforcement learning,
             neural rendering, generative modeling of humanoid motion and 3D
-            environments, and efficient inference. At Qualia, I currently
-            research residual reinforcement learning for vision-language-action
-            models, focusing on robotic manipulation in Isaac Lab.
+            environments, and efficient inference. I&apos;m currently doing
+            research at Qualia on residual reinforcement learning for
+            vision-language-action models, focusing on robotic manipulation in
+            Isaac Lab.
           </p>
           <nav aria-label="Profiles and contact">
             <EmailCopyButton />
