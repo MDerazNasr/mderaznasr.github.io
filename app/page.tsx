@@ -72,11 +72,13 @@ export default function Home() {
         <div className="masthead-copy">
           <h1>Mohamed Deraz Nasr</h1>
           <p className="intro-text">
-            I&apos;m interested in building intelligent systems that can
-            understand, predict, and act in the physical world. My interests
-            span world models, robotics, 3D perception, and efficient machine
-            learning systems. I hope to help turn advances in machine learning
-            into reliable systems with real-world impact.
+            I&apos;m a graduate student in Computer Science at Georgia Tech,
+            following a B.Sc. in Software Engineering from the University of
+            Ottawa. My research explores learning systems that can model,
+            interpret, and act in the physical world, with interests spanning
+            world models, robotics, 3D perception, and efficient machine
+            learning. I aim to develop reliable methods that connect advances
+            in machine learning with real-world intelligent systems.
           </p>
           <nav aria-label="Profiles and contact">
             <EmailCopyButton />
